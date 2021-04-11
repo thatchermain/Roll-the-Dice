@@ -26,11 +26,12 @@ class Roller extends Component {
             face1: newFace1,
             face2: newFace2,
             isRolling: true,
-            score: newFace1Score + newFace2Score
+            score: '?'
+            
 
         })
         setTimeout(() => {
-            this.setState({ isRolling: false })
+            this.setState({ isRolling: false, score: newFace1Score + newFace2Score })
         }, 1000);
     };
     render() {
