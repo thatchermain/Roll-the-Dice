@@ -1,1 +1,1 @@
-Simple roll dice app.
+Simple dice roll app.
